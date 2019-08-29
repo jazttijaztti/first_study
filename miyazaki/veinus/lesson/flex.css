@@ -1,0 +1,44 @@
+
+#wapper{
+  boder:1px solid red;
+}
+
+#menu{
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#footer{
+  margin-right: 20%;
+  margin-left: 20%;
+
+}
+
+ul{
+  display:flex;
+  width:100%;
+}
+ul li {
+  width:25%;
+  border:1px solid black;
+  height:30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align:center;
+}
+
+.content-main{
+  display:flex;
+  border:1px solid black;
+}
+
+.content-right{
+  width:50%;
+  text-align:center;
+  margin-top :30px;
+}
+
+
+img{
+  width:100%;
+}
