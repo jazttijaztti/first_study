@@ -27,7 +27,7 @@ img{
   margin-bottom: 20px;
   margin-top: 20px;
   text-align:center;
-  font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+  font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic","Verdana,sans-serif";
   padding: 25px 0 35px;
   font-size: 12px;
   letter-spacing: 1px;
@@ -52,7 +52,7 @@ img{
   margin-bottom: 20px;
   margin-top: 20px;
   text-align:center;
-  font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+  font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic","Verdana,sans-serif";
   padding: 25px 0 35px;
   font-size: 12px;
   letter-spacing: 1px;
@@ -82,7 +82,7 @@ img{
   margin-bottom: 0.5em;
     font-size: 60px;
     color: #fff;
-    font-family: "Lato-Bold", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+    font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic","Verdana,sans-serif";
     line-height: 1;
 }
 
@@ -102,7 +102,7 @@ img{
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 1;
-  font-family: "AvenirLTStd-Black", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+  font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic","Verdana,sans-serif";
 }
 
 .content-right{
@@ -123,7 +123,7 @@ img{
     color: #303030;
     letter-spacing: 1px;
     font-size: 34px;
-    font-family: "MinionPro-It", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif
+    font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic","Verdana,sans-serif";
 }
 
 .content-main3{
@@ -151,7 +151,7 @@ height: 154px;
 line-height: 1;
     font-size: 20px;
     letter-spacing: 2px;
-    font-family: "MinionPro-It", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+    font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic","Verdana,sans-serif";
 
 
 }
@@ -167,7 +167,7 @@ line-height: 1;
     color: #303030;
     letter-spacing: 1px;
     font-size: 34px;
-    font-family: "MinionPro-It", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+    font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic","Verdana,sans-serif";
 }
 
 .content-main5{
@@ -198,7 +198,7 @@ line-height: 1;
   line-height: 1;
     letter-spacing: 1px;
     font-size: 13px;
-    font-family: "AvenirLTStd-Black", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",Verdana,sans-serif;
+    font-family: "AvenirLTStd-Medium", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS P Gothic","Verdana,sans-serif";
 }
 
 .img3{
