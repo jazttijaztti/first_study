@@ -154,6 +154,10 @@ ul span{
   margin-left: 5px;
 }
 
+.content3-left a:hover{
+opacity: 0.7;
+transition-duration: 0.3s;
+}
 
 .content3-right{
   width: 30%;
