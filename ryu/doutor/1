@@ -24,7 +24,6 @@ img{
     display:table;
     max-height:100px;
     max-width:940px;
-    width:100%;
     margin:0px auto;
     padding:20px 0px;
 }
@@ -53,7 +52,6 @@ img{
     vertical-align:middle;
     letter-spacing:normal;
     height:100%;
-    border-right:1px solid #e9e3d3;
 }
 #list .in-list2 ul li span{
     width:100%;
@@ -67,7 +65,7 @@ img{
 #list .in-list2 ul li span img{
     vertical-align:middle;
     width:25%;
-    margin-right:10%;
+    margin-right:15%;
 }
 #menu{
     width:100%;
@@ -471,8 +469,6 @@ img{
     margin-left:-20px;
     margin-top:-20px;
     margin-bottom:-20px;
-}
-#index2-main #index2-in-main-top .index2-in-main-top2 .index2-in-main-top2-mid{
     display:flex;
 }
 
@@ -551,14 +547,12 @@ img{
     font-weight:bold;
     color:#3e2800;
 }
-#index2-in-main-end .index2-in-main-end2{
-    margin-top:-20px;
-    margin-left:-20px;
-}
 .index2-in-main-end2 ul{
     display:flex;
     flex-flow:row wrap;
     width:100%;
+    margin-top:-20px;
+    margin-left:-20px;
 }
 .index2-in-main-end2 ul li{
     list-style:none;
@@ -673,71 +667,6 @@ img{
 .in-main-mid1-2{
 	font-weight:bold;
 }
-#index2-main{
-        width:100%;
-}
-#index2-main #index2-in-main-top{
-        margin-top:-27px;
-}
-#index2-main #index2-in-main-top .index2-in-main-top2 {
-        width:90%;
-        margin-left:5%;
-        margin-top:0px;
-}
-#index2-main #index2-in-main-top .index2-in-main-top2 .index2-in-main-top1-1 .index2-in-main-top1-1-1 .tab{
-        right:7px;
-        bottom:54%;
-        width:22%;
-        height:27%;
-        line-height:37px;
-}
-#index2-main #index2-in-main-top .index2-in-main-top2 .index2-in-main-top2-mid {
-        display:flex;
-        flex-flow:row wrap;
-        margin-left:-10px;
-        margin-top:-10px;
-}
-#index2-main #index2-in-main-top .index2-in-main-top2 .index2-in-main-top2-1{
-        padding-top:10px;
-        padding-left:10px;
-        width:50%;
-}
-#index2-main #index2-in-main-mid .index2-in-main-mid1
-{
-        border:7px solid #f8f6f1;
-}
-#index2-main #index2-in-main-mid .index2-in-main-mid1
-.index2-in-main-mid1-1{
-        padding:27px 17px 15px;
-}
-#index2-main #index2-in-main-top .index2-in-main-top2 .index2-in-main-top1-1 h3{
-        margin-bottom:0px;
-} 
-#index2-main #index2-in-main-mid{
-        margin-top:30px;
-}
-#index2-main #index2-in-main-end{
-	padding-top:18px;
-}
-#index2-main #index2-in-main-end .index2-in-main-end2{
-	margin:0px 20px;
-}
-#index2-main #index2-in-main-end .index2-in-main-end2 .index2-in-main-end2-top{
-        margin-left:-15px;
-        margin-top:-15px;
-}
-#index2-main #index2-in-main-end .index2-in-main-end2 .index2-in-main-end2-top ul li{
-	width:33.3333%;
-	padding-top:15px;
-	padding-left:15px;
-}
-#footer .index2-in-footer{
-        max-width:100%;
-	width:90%;
-	margin-top:25px;
-	margin-bottom:65px;
-}
-
     #main .main-mid{
 	margin-left:18px;
 	margin-right:18px;
