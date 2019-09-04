@@ -1,0 +1,401 @@
+
+#wrapper {
+	width:940px;
+	margin:auto;
+	background-color:#FFFFFF;
+}
+
+#sp_menu {
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:40px;
+	background-color:rgba(0,0,0,0.2);
+	display:none;
+	z-index:100;
+}
+
+#sp_menu-left {
+	background-image:url(../img/sp_menu-logo.png);
+	background-size:cover;
+	background-position:0% 0%;
+	padding:5px;
+	height:39px;
+	width:44px;
+	z-index:101;
+}
+
+#sp_menu-right {
+	background-image:url(../img/sp_menu-button.png);
+	background-size:cover;
+	background-position:center;
+	height:39px;
+	width:40px;
+	z-index:101;
+}
+
+.table {
+	display:table;
+}
+
+.tablecell {
+	display:table-cell;
+}
+
+#header {
+	width:100%;
+	height:57px;
+	position:relative;
+	z-index:1;
+}
+
+#headerlogo {
+	width:230px;
+	height:37px;
+	background-image:url(../img/logo_dtr.png);
+	background-size:cover;
+	background-position:0 0;
+	margin:10px 0 10px;
+	position:absolute;
+	left:0;
+}
+
+#share {
+	width:20%;
+	height:30px;
+	position:absolute;
+	top:10pxpx;
+	left:60%;
+	z-index:10;
+}
+
+#share_label {
+	width:5%;
+	height:20px;
+	margin-top:5px;
+	padding:5px 0 5px;
+	line-height:1;
+	font-size:14.4px;
+	font-family:"メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, verdana";
+}
+
+#share_tw {
+	background-image:url(../img/social_share_tw.png);
+	background-size:100% 100%;
+	background-position:center;
+	width:28px;
+	height:28px;
+}
+
+#share_fb {
+	background-image:url(../img/social_share_fb.png);
+	background-size:100% 100%;
+	background-position:center;
+	width:28px;
+	height:28px;
+}
+
+#share_ln {
+	background-image:url(../img/social_share_line.png);
+	background-size:100% 100%;
+	background-position:center;
+	width:28px;
+	height:28px;
+}
+
+#header_content {
+	width:150px;
+	height:57px;
+	margin:0 0 0 auto;
+}
+
+#textsize {
+	height:30px;
+	margin:0 0 0 auto;
+}
+
+#textsize_label {
+	width:60px;
+	height:20px;
+	margin:0px 2.5px;
+	padding:10px 0 5px;
+	vertical-align:middle;
+	line-height:1;
+	font-size:12px;
+	font-family:"メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, verdana";
+}
+
+#button_small {
+	width:18px;
+	height:18px;
+	margin:0px 2.5px;
+	font-size:12px;
+	font-family:"メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, verdana";
+	border:1px solid #000000;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#button_midium {
+	width:18px;
+	height:18px;
+	margin:0px 12.5px;
+	font-size:14px;
+	font-family:"メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, verdana";
+	border:1px solid #000000;
+	color:#FFFFFF;
+	background-color:rgba(100,0,0,1);
+	vertical-align:middle;
+	text-align:center;
+}
+
+#button_large {
+	width:18px;
+	height:18px;
+	margin:0px 2.5px;
+	font-size:16px;
+	font-family:"メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, verdana";
+	border:1px solid #000000;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#button_small:hover, #button_midium:hover, #button_large:hover {
+	background-color:rgba(200,200,100,0.8);
+	color:rgba(52,52,52,1);
+}
+
+#headermenu ul li {
+	width:auto;
+	height:15px;
+	line-height:1;
+	font-size:7px;
+}
+
+.headermenu_img {
+	background-image:url(../img/logo_dtr.png);
+	background-size:100% 100%;
+	background-position:center;
+	width:28px;
+	height:28px;
+
+}
+
+#headermenu_sitemap_txt:hover, #headermenu_inquiry_txt:hover {
+	text-decoration: underline;
+}
+
+#topmenu {
+	height:40px;
+}
+
+#topmenu ul {
+	text-align:center;
+}
+
+#topmenu ul li {
+	height:40px;
+	line-height:1;
+	vertical-align:middle;
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+#topmenu_1st h1 {
+	font-size:15px;
+	color:#FFFFFF;
+	
+}
+
+#topmenu_1st p {
+	font-size:10px;
+	color:rgba(170,150,0,1);
+}
+
+#topmenu_1st {
+	width:160px;
+	background-color:#000000;
+}
+
+#topmenu_2nd {
+	width:200px;
+}
+
+#topmenu_3rd {
+	width:220px;
+}
+
+#topmenu_4th {
+	width:180px;
+}
+
+#topmenu_5th {
+	width:180px;
+}
+
+.topmenu_after2nd h1 {
+	font-size:15px;
+	color:#000000;
+}
+
+.topmenu_after2nd p {
+	font-size:10px;
+	color:rgba(170,150,0,1);
+}
+
+.topmenu_after2nd:hover {
+	background-color:rgba(150,130,20,0.3);
+}
+
+#company {
+	margin-top:20px;
+}
+
+.companyimg {
+	width:50%;
+	height:270px;
+}
+
+#img_doutor {
+	background-image:url(../img/topimg_dcs.jpg);
+	background-size:100% 100%;
+	background-position:center;
+	width:480px;
+	height:270px;
+
+}
+
+#img_excelsior {
+	background-image:url(../img/topimg_exc.jpg);
+	background-size:100% 100%;
+	background-position:center;
+	width:460px;
+	height:135px;
+
+}
+
+#img_other {
+	background-image:url(../img/topimg_other.jpg);
+	background-size:100% 100%;
+	background-position:center;
+	width:460px;
+	height:135px;
+
+}
+
+#title {
+	margin:20px 0 0;
+	width:50px;
+	height:15px;
+	font-size:12px;
+	font-family:"メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, verdana";
+}
+
+#news {
+	background-image:url(../img/news.png);
+	background-size:100% 100%;
+	background-position:center;
+	width:620px;
+	height:250px;
+
+}
+#sidemenu {
+	background-color:rgba(0,0,0,0.2);
+
+}
+.sidemenuimg {
+	background-size:100% 100%;
+	background-position:center;
+	width:310px;
+	height:42px;
+
+}
+
+.sidemenuimg:hover {
+	opacity:0.6;
+}
+
+#img_shopsearch{
+	background-image:url(../img/topmenu_shopsearch.png);
+}
+#img_wholesale{
+	background-image:url(../img/topmenu_wholesale.png);
+}
+#img_ir{
+	background-image:url(../img/topmenu_ir.png);
+}
+#img_sidecsr{
+	background-image:url(../img/topmenu_csr.png);
+}
+#img_fc{
+	background-image:url(../img/topmenu_fc.png);
+}
+#img_inquiry{
+	background-image:url(../img/topmenu_inquiry.png);
+}
+
+#mainend {
+	width:100%;
+	height:30px;
+	margin:10px 0;
+}
+
+#toplink {
+	width:80px;
+	height:10px;
+	margin:0 0 0 auto;
+}
+
+#toplink a {
+	font-size:8px;
+	line-height:1;
+}
+
+#toplink a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	width:940px;
+	margin:30px auto 0;
+	position:relative;
+	z-index:1;
+}
+
+#footerlogo [
+	position:absolute;
+	z-index:10;
+	top:0;
+	left:0;
+	background-image:url(../img/logo_doutorcorp2.png);
+	background-size:100% 100%;
+	background-position:0 0;
+	width:202px;
+	height:20px;
+}
+
+#footermenu {
+	
+
+}
+
+#hootermenu ul li {
+	width:auto;
+	height:15px;
+	line-height:1;
+	font-size:7px;
+}
+
+#footermenu ul {
+	
+
+}
+
+
+@media(max-width:590px) {
+	#sp_menu {
+		display:flex;
+		justify-content:space-between;
+	}
+
+
+}
