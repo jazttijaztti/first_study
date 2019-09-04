@@ -587,6 +587,38 @@ img{
     margin-left:auto;
     margin-right:auto;
 }
+#index3-main{
+    min-height:550px;
+    width:940px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#index3-main .index3-in-main1{
+    display:inline-block;
+    height: 50px;
+    width: 940px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #3d2900;
+    font-size: 1.1em;
+    text-indent: 20px;
+}
+#index3-main .index3-in-main2{
+    background-color: #f8f6f1;
+    overflow: hidden;
+}
+#index3-main .index3-in-main2-1{
+    display:flex;
+    margin: 10px 0 10px 10px;
+    height: 340px;
+}
+#index3-main .index3-in-main2-1 .index3-in-main2-img{
+    margin-left:10px;
+    height:340px;
+}
+#index3-main .index3-in-main2-1 .index3-in-main2-img:first-child{
+    margin-left:0px;
+}
 @media(max-width:590px){
     #body{
     	line-height:1.8;
