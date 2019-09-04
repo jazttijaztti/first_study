@@ -105,6 +105,7 @@ body{
 }
 
 .home{
+  border-left: 1px solid #555555;
   background-color:#444444;
   color:white;
   font-size: 14px;
@@ -114,7 +115,9 @@ body{
   color: #555555;
 }
 
-
+.other:hover{
+  background-color: #FDF5E6;
+}
 
 ul span{
   color: #DAA520;
@@ -122,9 +125,6 @@ ul span{
   font-weight: normal;
 }
 
-#menu ul li:hover{
-  background-color: #FDF5E6;
-}
 
 .content1{
   display:flex;
