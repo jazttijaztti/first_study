@@ -1,0 +1,54 @@
+#wapper{
+  width:100%;
+}
+
+#menu{
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#footer{
+  margin-right: 20%;
+  margin-left: 20%;
+
+}
+
+
+ul{
+  display:table;
+  width:100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ul li {
+  width:20%;
+  display:table-cell;
+  border:1px solid black;
+  height:30px;
+  text-align:center;
+}
+
+.content-main{
+  display:table;
+  width: 100%;
+}
+
+.content-right{
+  width:50%;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+
+.content-left{
+  display:table-cell;
+  width:50%;
+}
+
+.content-main{
+  border:1px solid black;
+}
+
+img{
+  width:100%;
+}
