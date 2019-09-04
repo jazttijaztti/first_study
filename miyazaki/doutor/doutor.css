@@ -1,3 +1,7 @@
+body{
+  font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif,verdana;
+}
+
 #wapper{
   margin-top: 10px;
   margin-left: 80px;
@@ -40,7 +44,7 @@
 .fontsize a{
   border: 1px solid black;
   padding: 3px;
-  font-weight: bolder;
+
 }
 
 .fontsize a:hover{
@@ -50,8 +54,17 @@
 .small a{
   background-color: #663300;
   color: white;
+  padding: 3px;
 }
 
+.medium a{
+  font-weight:bolder;
+}
+
+.big a{
+ font-weight: bolder;
+ padding: 5px;
+}
 
 .header-menu2{
   clear: both;
@@ -75,6 +88,7 @@
   display:flex;
   width:100%;
   justify-content: center;
+  font-weight: bolder;
 }
 
 
@@ -82,7 +96,9 @@
 #menu ul a {
   width:20%;
   height:30px;
-  border: 1px solid black;
+  border-right: 1px solid #555555;
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid #555555;
   text-align:center;
   font-size: 13px;
   background-color: #FCFCFC;
@@ -94,11 +110,16 @@
   font-size: 14px;
 }
 
+.other{
+  color: #555555;
+}
+
 
 
 ul span{
   color: #DAA520;
   font-size: 1px;
+  font-weight: normal;
 }
 
 #menu ul li:hover{
@@ -136,6 +157,10 @@ ul span{
   height: 150px;
 }
 
+.content2{
+  font-weight: bolder;
+  font-size: small;
+}
 
 .content3{
   display: flex;
@@ -146,6 +171,7 @@ ul span{
   width: 70%;
   margin-right: 20px;
   background-color: #FCFCFC;
+  padding-top: 10PX;
 }
 
 .content3-left a{
@@ -239,6 +265,12 @@ transition-duration: 0.3s;
   border-left:1px solid black;
   padding-left: 10px;
 }
+
+.f1{
+  font-weight: bolder;
+}
+
+
 
 .content7{
   float: right;
