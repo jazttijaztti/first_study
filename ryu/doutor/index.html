@@ -9,22 +9,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script>
             $(function(){
-                $('#list .in-list').on('click',function(){
+                 $('.in-list2 ul li').on('click',function(){
+                      $('.in-list2 ul li span').css('color','blue');
+                      $('.in-list2 ul li span').css('font-size','10px');
+                      $('#main').css('display','none');
+                 });
 
-            $('.in-list2').css('color','red');
-            $('#menu ul li').css('font-size','30px');
-
-
+                     $('body').fadeIn('4000'); 
+                  });
              });
-                $('.in-main1-1').on('click',function(){
-                 $('.in-list2-1').css('color','black');
-
-
-            });
-             });
-
-         </script>
-
+        </script>
      </head>
     <body>
         <div id="wrapper">
