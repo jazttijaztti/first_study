@@ -4,7 +4,7 @@ body{
     font-size: 1.4rem;
     font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3",Hiragino Kaku Gothic Pro,Osaka,"ＭＳ Ｐゴシック",MS PGothic,Sans-Serif,verdana;
     line-height: 2;
-
+    display:none;
 }
 html{
     font-size: 62.5%;

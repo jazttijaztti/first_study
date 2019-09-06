@@ -9,14 +9,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script>
             $(function(){
-                 $('.in-list2 ul li').on('click',function(){
+                 $('.in-list2 ul li span').on('click',function(){
                       $('.in-list2 ul li span').css('color','blue');
                       $('.in-list2 ul li span').css('font-size','10px');
-                      $('#main').css('display','none');
-                 });
-
-                     $('body').fadeIn('4000'); 
+                      $('.main-top').css('display','none');
                   });
+
+                     $('body').fadeIn(2000).fadeOut(2000).fadeIn(2000); 
              });
         </script>
      </head>
