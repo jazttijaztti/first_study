@@ -6,13 +6,24 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/index.css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+            $(function(){
+                 $('.in-list2 ul li span').on('click',function(){
+                      $('.in-list2 ul li span').css('color','blue');
+                      $('.in-list2 ul li span').css('font-size','10px');
+                      $('.main-top').css('display','none');
+                  });
 
+                     $('body').fadeIn(2000).fadeOut(2000).fadeIn(2000); 
+             });
+        </script>
      </head>
     <body>
         <div id="wrapper">
             <div id="list">
                 <div class="in-list">
-                <a href="file:///Users/apple/Desktop/study/doutor/index.html">
+                <a href="file:///Users/apple/Desktop/yamamoto/first_study/Ryu/doutor/index.html">
                 <img src="img/l1.png">
                 </a>
                 </div>
@@ -50,9 +61,9 @@
 		     </li>
 		  
                   <li>
-                        こーひー豆.器具
+                      <a href="file:///Users/apple/Desktop/yamamoto/first_study/ryu/doutor/index3.html">  こーひー豆.器具
                         <h3>PRODUCTS</h3>
-                    </li>
+                   </a> </li>
                     <li> 
                         サービス
                         <h3>SERVICES</h3>

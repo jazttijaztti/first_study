@@ -3,21 +3,91 @@
     <title>株式会社ドトールコーヒー</title>
     <head>
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/index4.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#list .list1').on('click',function(){
+
+            $('.in-list2-1').css('color','red');
+            $('#menu ul li').css('font-size','30px');
+
+
+             });
+                $('.in-main1-1').on('click',function(){
+                 $('.in-list2-1').css('color','black');
+
+
+            });
+             });
+
+         </script>
+
     </head>
 
     <body>
+    <div id="wrapper">
         <div id="list">
             <div class="list1">
-                <img src="img/l1.png">
+                <img src="img/l5.png">
             </div>
-            <div class="list2">
-                <ul>
-                    <li></li>
-                </ul>
+            <div class="list2" class="cf">
+                <div class="in-list2">
+                    <img src="img/l9.png">
+                    <img src="img/l6.png">
+                    <img src="img/l7.png">
+                    <img src="img/l8.png">
+                </div>
+                <div class="in-list2-1">
+                    <p>文字サイズ</p>
+                    <span>小</span>
+                    <span>中</span>
+                    <span>大</span>
+　　 　　　     </div>
+                <div class="in-list2-2">
+                    <p>サイトマップ</p>
+                    <p>お問い合わせ</p>
+                </div>
+           </div>
+        </div>
+        <div id="menu" class="cf">
+            <ul>
+                <li>
+                 ホーム
+                 <p>HOME</p>
+                </li>
+                <li>
+                ニュースリリース
+                <p>NEWS RELEASE</p>
+                </li>
+                <li>
+                ドトールコーヒーのビジネス
+                <p>OUR BUSINESS</p>
+                </li>
+                <li>
+                採用情報
+                <p>RECRUIT</p> 
+                </li>
+                <li>
+                当社について
+                <p>COMPANY</p>
+                </li>
+            </ul>
+        </div>
+        <div id="main">
+            <div id="in-main1" class="cf">
+                <div class="in-main1-1">
+                    <img src="img/t36.jpg">
+                </div>
+                <div class="in-main1-2">
+                    <img src="img/t37.jpg">
+                    <img src="img/t38.jpg">
+                 </div>
             </div>
         </div>
 
+
+    </div>
     </body>
 
 

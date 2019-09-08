@@ -7,6 +7,24 @@
 
     	<link rel="stylesheet"href="css/reset.css">
 	<link rel="stylesheet"href="css/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#list .list1').on('click',function(){
+
+            $('.in-list2-1').css('color','red');
+            $('#menu ul li').css('font-size','30px');
+
+
+             });
+                $('.in-main1-1').on('click',function(){
+                 $('.in-list2-1').css('color','black');
+
+
+            });
+             });
+
+         </script>
     </head>
     <body>
 　　　　<div id="wrapper">
@@ -47,10 +65,10 @@
                       </span>
 		     </li>
 		  
-                  <li>
+                  <li><a href="file:///Users/apple/Desktop/yamamoto/first_study/ryu/doutor/index3.html">
                         こーひー豆.器具
                         <h3>PRODUCTS</h3>
-                    </li>
+                    </a></li>
                     <li> 
                         サービス
                         <h3>SERVICES</h3>
