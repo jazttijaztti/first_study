@@ -1,0 +1,220 @@
+body{
+    color: #343434;
+    font-size: 0.9em;
+    word-break:break-all;
+    background-color:#ffffff;
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3",Hiragino Kaku Gothic Pro,Osaka,"ＭＳ Ｐゴシック",MS PGothic,Sans-Serif,verdana;
+}
+html{
+    margin:0 auto;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+img{
+    max-width: 100%;
+    border-style: none;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.cf{
+    clear:both;
+}
+#wrapper{
+    width:auto;
+    min-width:auto;
+    margin-left:0;
+    margin-right:0;
+}
+#list{
+    display:table;
+    max-height:100px;
+    min-width:940px;
+    width:940px;
+    margin:0px auto;
+    padding:20px 0px;
+}
+#list .in-list{
+    max-height: 61px;
+    max-width: 167px;
+    margin-left: 20px;
+    display:table-cell;
+}
+
+#list .in-list2{
+    height:60px;
+    padding:5px 0px;
+    float:right;
+}
+#list ul{
+    display:table-cell;
+    width:100%;
+    height:50px;
+    text-align:right;
+    vertical-align:middle;
+    letter-spacing:-.41em;
+}
+#list .in-list2 ul li{
+    display:table-cell;
+    vertical-align:middle;
+    letter-spacing:normal;
+    height:100%;
+    border-right:1px solid #e9e3d3;
+}
+#list .in-list2 ul li span{
+    width:100%;
+    height:100%;
+    padding-left:20px;
+    padding-right:20px;
+    vertical-align:middle;
+    
+}
+
+#list .in-list2 ul li span img{
+    vertical-align:middle;
+    width:25%;
+    margin-right:10%;
+}
+#menu{
+    min-width:940px;
+    width:100%;
+    height:60px;
+    margin-bottom:10px;
+    background-color:#3d2900;
+}
+#menu ul{
+    max-width:940px;
+    margin:0px auto;
+    height:100%;
+    display:table;
+}
+#menu ul li{
+    color:white;
+    text-align:center;
+    list-style:none;
+    display:table-cell;
+    vertical-align:middle;
+    height:100%;
+}
+#menu ul li:nth-of-type(1){
+    width:13.4%;
+    background-color:#7a5200;
+}
+#menu ul li:nth-of-type(2){
+    width:13.5%;
+}
+#menu ul li:nth-of-type(3){
+    width:17%;
+}
+#menu ul li:nth-of-type(4){
+    width:13.5%;
+}
+#menu ul li:nth-of-type(5){
+    width:21.27%;
+}
+#menu ul li:nth-of-type(6){
+    width:21.27%;
+}
+#menu ul li a{
+    color:white;
+    height:100%;
+    text-align:center;
+    display:block;
+    padding:10px 0px;
+} 
+#menu ul li h3{
+    color:#ad8c47;
+    font-size:10px;
+    letter-spacing:.5px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:1;
+    transform:scale(.85);
+    margin-top:0px;
+    display:block;
+    margin-bottom:0px;
+}
+#index3-main{
+    min-height:550px;
+    width:940px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#index3-main .index3-in-main1{
+    display:inline-block;
+    height: 50px;
+    width: 940px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #3d2900;
+    font-size: 1.1em;
+    text-indent: 20px;
+}
+#index3-main .index3-in-main2{
+    background-color: #f8f6f1;
+    overflow: hidden;
+}
+#index3-main .index3-in-main2-1{
+    display:flex;
+    margin: 10px 0 10px 10px;
+    height: 340px;
+}
+#index3-main .index3-in-main2-1 .index3-in-main2-img{
+    margin-left:10px;
+    height:340px;
+}
+#index3-main .index3-in-main2-1 .index3-in-main2-img:first-child{
+    margin-left:0px;
+}
+#footer{
+    padding-bottom:100px;
+    display:table;
+    width:100%;
+}
+.in-footer{
+    max-width:278px;
+    align-items:center;
+    display:flex;
+    margin:0px auto;
+    padding:50px 0px;
+ }
+.in-footer p{
+    color:rgb(62,40,0);
+    text-align:center;
+    margin:0px 20px;
+}
+.in-footer img{
+    width:60px;
+    margin-right:10px;
+}
+.in-footer img:last-child{
+    margin-right:0px;
+}
+#footer .list{
+    border-right:1px solid gray;
+}
+#footer .list ul{
+    display:table;
+    width:710px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:70px;
+}
+#footer .list ul li{
+    list-style:none;
+    display:table-cell;
+}
+#footer .in-footer3{
+    text-align:center;
+    display:block;
+    margin:40px auto;
+}
+#footer .in-footer3 img{
+    width:25%;
+}
+#footer p:last-child{
+    text-align:center;
+    color: #d7d2c7;
+}

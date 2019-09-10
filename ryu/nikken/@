@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="reset.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+         $(function(){
+             $('.main-mid1 span').fadeIn(6000);
+         $('.main-mid1').on('mouseover',function(){
+                 $('.main-mid1').css('background-color','rgba(0,0,0,.5)');
+                 
+         });
+         $('#main-mid2-4').on('mouseover',function(){
+             $('#main-mid2-4').css('background-color','rgba(0,0,0,.6)'); 
+});
+          $('#main-top').on('mouseover',function(){
+              $('.main-mid1').slideToggle(2000);
+          });
+          $('.main-mid1').on('mouseover',function(){
+              $('#main-mid2').fadeIn(2000);
+});
+          $('#main-mid2-2').on('mouseover',function(){
+              $('#main-mid2-3').fadeIn(2000);
+});
+          $('#main-mid2-3').on('mouseover',function(){
+              $('#main-mid2-4').fadeIn(2000);
+});
+
+
+          });    
+
+         
+          </script>
+   </head>
+    <body>
+         <div id="wrapper">
+             <div id="menu">
+                 <div class="menu1">
+                 <img src="img/l1.png">
+                 </div>        
+                     <div class="menu1-1" class="cf">
+                     <ul class="menu-list">
+                         <li>ABOUT NCM</li>
+                         <li>SERVICE</li>
+                         <li>PROJECT</li>
+                         <li>STORY</li>
+                         <li>RECRUIT</li>
+                         <li>NEWS</li>
+                     </ul>
+                     </div>
+                 <div class="menu2" class="cf">
+                     <div class="menu2-1">
+                         <p>NIKKEN BRAND</p>
+                     </div>
+                     <div class="menu2-2">
+                         <p>EN|中文</p>
+                     </div>
+                     <div class="menu2-3">
+                         <img src="img/l2.png">
+                     </div>
+                 </div>
+             </div>
+             <div id="main">
+                 <div id="main-top">
+                     <div class="main-top-left" class="cf">
+                         <img src="img/t13.jpg">
+                         <div class="in-main-top-left">
+                         
+                         <h2><span>NEW</span>2019.8.8</h2>
+                         <p>[STORY]に東京会館様との対談記事を公開しました。</p>
+                     </div>
+                     </div>
+                     <div class="main-top-right" class="cf">
+                         <div class="in-main-top-right">
+                         <h2>つなぐ。</br>
+今あるものを まだない明日へ</h2>
+                         <p>資産や建物など、今、目の前にあるものの先に、まだ見ぬ未来があります。
+だからこそ、一つひとつのプロジェクトと真摯に向き合い、マネジメントの
+力で“今”と“明日”をつないでゆく。あらゆるプロジェクトをクリエイティブ
+にマネジメントすること。それが私たちの使命です。</p>
+                         </div>
+                         <div class="main-top-right-image">
+                         <img src="img/t4.jpg">
+                         <img src="img/t15.jpg">
+                         </div>
+                     </div>
+                 </div>
+                 <div id="main-mid">
+                     <div class="main-mid1">
+                         <h2>
+                            <span>OUR</span>
+                            <span>SERVICE</span>
+                         </h2>
+                         <span><img src="img/t7.jpg"></span>
+                         <p>NCMは、“今あるもの”を“まだない明日”につなぐためのマネジメント・サービスを提供しています。</br>
+                         
+日建グループとしての豊富な経験や専門知識を活かすことで事業をとりまく課題を解決し、クライアントの利益はもちろん、社会や環境に貢献できる未来を実現します。
+                         </p>
+                     </div>
+                     <div id="main-mid2" class="cf">
+                         <div class="main-mid2-1">
+                             <h1>PROJCT</h1>
+                         </div>
+                         <div class="main-mid2-left">
+                             <div class="in-main-mid2-left1">
+                             <p>話題の商業施設やホテルから最先端のオフィスや集合住宅まで、</br>日常の風景の一部となっている”あの場所”も、NCMが手がけたプロジェク</br>トかもしれません。</br>私たちが提供するサービスは、すべてオーダーメイド。</br>個性豊かなプロジェクトの事例をご紹介します。</p>
+                           <div class="in-main-mid2-left2">
+                            <p>Learn more</p>
+                            </div>
+                            </div>
+                         </div>
+                         <div class="main-mid2-right">
+                             <img src="img/t10.jpg">
+                         </div>
+                         <div id="in-main-mid2">
+                         <div class="in-main-mid2-text">
+                            <h3>「記憶の継承」と「変わらぬ」おもてなしを目指して</h3>
+                         <p class="in-main-mid2-text1">東京会館本館建替計画</p>
+                         <p class="in-main-mid2-text2">Tokyo,JAPAN</p>
+                         </div>
+                         </div>
+                     </div>
+                     </div>
+                     <div id="main-mid2-2" class="cf">
+                         <div class="main-mid2-2-left">
+                             <img src="img/t16.jpeg">
+                             <p>東京會舘本舘建替計画</br>～コンサルティング及び設計監理～</br>「再開発共同事業における事業性検証・建設コンサルティングから</p><p class="in-main-mid2-2-left">伝統と格式を継承し最新設備を備えた社交場設計まで」</p>
+                         </div>
+                         <div class="main-mid2-2-right">
+                             <div class="in-main2-2-right1">
+                            <div class="in-main2-2-right1-1"> 
+                             <h2>STORY</h2>
+                             <p>NCMのプロジェクトの背景には、一つひとつの異なる想いや物語があります。</br>プロジェクトに関わった人々によるクロストークやNCMメンバーのメッセージを通じて、プロジェクトの歩みやコンストラクション・マネジャーの仕事をご紹介します。</p>
+                             <p>Learn more</p>
+                             </div>
+                             </div>
+                             <div class="in-main2-1-right2">
+                                 <div class="in-main2-1-right2-1">
+                                     <img src="img/t1.jpg">
+                                     <p class="in-main2-1-right2-1-text">公共施設で初の本格的なCM導入</p>
+                                      <p class="in-main2-1-right2-1-text2">町田市長に聞くCMの意義</p>
+                                 </div>
+                                 <div class="in-main2-1-right2-2">
+                                     <img src="img/t14.jpg">
+                                     <p class="in-main2-1-right2-1-text">日本生命 東館新築 CM 業務</br>ユニット理念に基づく、</br>設計と施工のインテグレーションによる革新的プロジェクト</p>
+                                 </div>
+                             </div>
+                             
+                         </div>
+                     </div>
+                 </div>
+                 <div id="main-mid2-3" class="cf">
+                     <div class="main-mid2-3-1">
+                         <p>RECRUIT</p>
+                     </div>
+                     <div class="main-mid2-3-2">
+                         <p>NCMは、総合マネジメントファームのメンバーとして、ともに未來をつくっていくためにの人材を募集しています。</p>
+　　　　　　　　　　　　 <p class="in-main-mid2-3-2">learn more</p>
+                     </div>
+                 </div>        
+                 <div id="main-mid2-4" class="cf">
+                     <span class="in-main-mid2-4-1">ABOUT</span>
+                     <span class="in-main-mid2-4-2">NCM</span>
+                     <div class="in-main-mid2-4-3">
+                     <img src="img/t17.jpg">
+                     </div>
+                     <div class="in-main-mid2-4">
+                     <h2>その想いに、</br>こたえる。</h2>
+                     <p>クライアントの想いにこたえ、プロジェクトを成功に導くことがNCMの役割。</br>私たちは、”まだない明日”を実現するパートナーです。</p>
+                     <p class="in-main-mid2-4-text">learn more</p>
+                     </div>
+                 </div>
+
+ 
+             </div>
+         </div>
+    </body>
+</html>
