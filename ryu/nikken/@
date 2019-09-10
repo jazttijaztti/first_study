@@ -16,7 +16,7 @@
              $('#main-mid2-4').css('background-color','rgba(0,0,0,.6)'); 
 });
           $('#main-top').on('mouseover',function(){
-              $('.main-mid1').fadeIn(2000);
+              $('.main-mid1').slideToggle(2000);
           });
           $('.main-mid1').on('mouseover',function(){
               $('#main-mid2').fadeIn(2000);

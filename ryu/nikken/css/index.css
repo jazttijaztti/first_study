@@ -15,9 +15,14 @@ img{
 }
 #menu{
     height:80px;
+    width:100%;
+    position:fixed !important;
+    z-index:1;
+    background-color:#fff;
     padding: 0 530px 0 180px;
-    position:relative;
+    position:relative ; 
     z-index:0;
+    
 } 
 #menu .menu1{
     position:absolute;
@@ -73,6 +78,9 @@ img{
     right:20px;
     top:20px;
     width:285px;
+}
+#main{
+    padding-top:165px;
 }
 #main #main-top{
     height:640px;
@@ -151,6 +159,7 @@ img{
     margin-top:114px;
 }
 .main-mid1{
+    display:none;
     width:83%;
     margin-left:auto;
     padding:0 160px;
@@ -185,6 +194,7 @@ img{
     z-index:1;
     bottom:-132px;
     left:-152px;
+    display:none;
 }
 .main-mid1 span img{
     width:280px;
@@ -197,6 +207,7 @@ img{
     font-size:14px;
 }
 #main-mid2{
+    display:none;
     position:relative;
     z-index:0;
     max-width:1280px;
@@ -268,7 +279,7 @@ img{
 }
 #main-mid2-2{
     width:90%;
-    margin-bottom:100px;
+    margin-bottom:200px;
     margin-left:5%;
     margin-right:5%;
     padding-top:150px;
@@ -341,4 +352,91 @@ img{
 }
 .in-main2-1-right2-2 .in-main2-1-right2-1-text{
     margin-left:10px;
+}
+#main-mid2-3{
+    display:none;
+    padding-right:160px;
+    max-width:1280px;
+    width:83%;
+    margin-right:auto;
+    margin-bottom:120px;
+    position:relative;
+    z-index:0;
+    background-color:#f9f9f9;
+}
+#main-mid2-3 .main-mid2-3-1{
+    font-size:40px;
+    letter-spacing:4.1px;
+    font-weight:400;
+    font-family:futura-pt,a-otf-ud-shin-go-pr6n,"UD Shin Go","游ゴシック体",YuGothic,"游ゴシック","Yu Gothic","メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic","Droid Sans",sans-serif;
+}
+#main-mid2-3 .main-mid2-3-2{
+    float:right;
+    padding: 67px 150px 61px;
+    font-size:14px;
+    text-align:center;
+    width:65%; 
+}
+#main-mid2-3 .main-mid2-3-2 p{
+    font-size:14px;
+    text-align:left;
+}
+#main-mid2-3 .in-main-mid2-3-2{
+    margin-top:33px;
+}
+#main-mid2-3 .main-mid2-3-1{
+    float:left;
+    text-align:right;
+    padding-top:92px;
+    width:35%;
+}
+#main-mid2-4{
+    max-width:900px;
+    min-height:400px;
+    margin-left:200px;
+    margin-right:auto;
+    padding-right:125px;
+    background-color:#1b1b1b;
+    position:relative;
+    z-index:0;
+    display:none;
+}
+#main-mid2-4 .in-main-mid2-4{
+    padding: 67px 0 70px;
+    margin:0 280px 0 100px;
+    color:#fff;
+}
+#main-mid2-4 .in-main-mid2-4 h2{
+    font-size:36px;
+    font-weight: 400;
+    font-family: futura-pt,"UD Shin Go Medium",a-otf-ud-shin-go-pr6n,"UD Shin Go","游ゴシック体",YuGothic,"游ゴシック","Yu Gothic","メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic","Droid Sans",sans-serif;
+    line-height:1;
+}
+#main-mid2-4 .in-main-mid2-4 p{
+    font-size:14px;
+    margin-top:14px;
+}
+#main-mid2-4 .in-main-mid2-4 .in-main-mid2-4-text{
+    margin-top:33px;
+}
+#main-mid2-4 span{
+    position:absolute;
+    z-index:1;
+    top:55px;
+    right:0px;
+    font-size:64px;
+}
+#main-mid2-4 .in-main-mid2-4-1{
+    color:#fff;
+    margin-right:9px;
+}
+#main-mid2-4 .in-main-mid2-4-2{
+    margin-right:-160px;
+} 
+#main-mid2-4 .in-main-mid2-4-3{
+    position:absolute;
+    z-index:1;
+    bottom:-145px;
+    right:-150px;
+    width:300px;
 }
