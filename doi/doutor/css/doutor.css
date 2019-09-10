@@ -1,4 +1,9 @@
 
+body {
+	display:none;
+
+}
+
 #wrapper {
 	width:940px;
 	margin:auto;
