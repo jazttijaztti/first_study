@@ -5,6 +5,32 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet "href="flex.css">
+<link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+ $(function(){
+$('img').on('click',function(){
+console.log('ここまできてる');
+$('#wapper').animate({'width':'50%','backgroundColor':'#aaa'},3000).animate({'width':'100%',
+'backgroundColor' : '#99ccff'},3000);
+
+});
+$('p').on('click',function(){
+$(this).css('fontSize','3em');
+
+});
+$(window).scroll(function(){
+   console.log('動いてます');
+console.log("スクロール値は$(this).scrollTop()でとる。とった値は→"+ $(this).scrollTop());
+});
+
+});
+
+
+</script>
+
+
 </head>
 <body>
 
