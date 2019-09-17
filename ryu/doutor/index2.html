@@ -6,6 +6,24 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet"href="css/index.css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#index2-in-main-top').on('mouseover',function(){
+                    $('#menu1').fadeIn('slow',);
+                });
+                $('#menu1').on('mouseover',function(){
+                    $('#menu2').fadeIn('slow',);
+});
+                $('#menu2').on('mouseover',function(){
+                    $('#menu3').fadeIn('slow',);
+});
+                $('#list').on('mouseover',function(){
+                    $('#wrapper').animate({'width':'50%'},4000).animate({'width':'100%'},4000);
+});
+
+});
+        </script>
     </head>	
     <body>
 	<div id="wrapper">

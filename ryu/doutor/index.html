@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/index.css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
         <script>
             $(function(){
                  $('.in-list2 ul li span').on('click',function(){
@@ -14,8 +15,12 @@
                       $('.in-list2 ul li span').css('font-size','10px');
                       $('.main-top').css('display','none');
                   });
-
-                     $('body').fadeIn(2000).fadeOut(2000).fadeIn(2000); 
+                  $('.main-top').on('mouseover',function(){
+                      $('.main-mid').fadeIn(4000);
+});
+                  $('.main-mid').on('mouseover',function(){
+                      $('#in-main2').fadeIn(4000);
+});
              });
         </script>
      </head>
