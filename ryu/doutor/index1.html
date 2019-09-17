@@ -7,6 +7,8 @@
 
     	<link rel="stylesheet"href="css/reset.css">
 	<link rel="stylesheet"href="css/index.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script>
             $(function(){
@@ -18,10 +20,32 @@
 
              });
                 $('.in-main1-1').on('click',function(){
-                 $('.in-list2-1').css('color','black');
-
-
+                $('.in-list2-1').css('color','black');
+                
             });
+            $('#list').on('mouseover',function(){
+
+                $('.main-top').animate({'width':'50%','backgroundColor':'#aaa'},3000).animate({'width':'100%','backgroundColor':'#99ccff'},3000);
+});
+                 $(window).scroll(function() {
+ 
+           console.log("スクロール値は$(this).scrollTop()でとる。とった値は→"+ $(this).scrollTop());
+           var scrlTop = $(this).scrollTop();
+           var h2scrl = $('h2').offset().top;
+           console.log("h2の値は"+ h2scrl);
+           if (h2scrl < scrlTop ) {
+ 
+               console.log(h2scrl);
+               
+               $('#wrapper').animate({
+               'backgroundColor': "#99ccff"
+                },3000).animate({
+               'backgroundColor': "#aaa",
+                },3000).animate({
+                 'backgroundColor': "#99ccff" 
+                },3000);
+           };
+        }); 
              });
 
          </script>
