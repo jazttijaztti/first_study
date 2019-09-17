@@ -13,7 +13,7 @@ font-family:
 }
 
 .header1 img{
-  width: 60%;
+  width: 30%;
 }
 
 
@@ -23,7 +23,7 @@ font-family:
 }
 
 .header2 li{
-  margin: 10px;
+  margin: 3px;
 }
 
 .header2 li img{
@@ -32,16 +32,15 @@ font-family:
 
 .header3{
   text-align: center;
-  margin-top: 10px
 }
 
 
 .header3 img{
-  width:300px;
+  width:30%;
 }
 
 #content{
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .content1{
@@ -462,7 +461,7 @@ font-family:
 .footer{
   background-color: black;
   color: white;
-  height: 800px;
+  height: 600px;
   margin-top: 30px;
 }
 
@@ -509,6 +508,11 @@ font-family:
 }
 
 @media(max-width: 590px){
+  #wrapper{
+    margin: 0;
+  }
+
+
    .header2{
      display: none;
    }

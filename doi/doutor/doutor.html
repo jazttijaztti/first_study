@@ -5,6 +5,41 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/doutor.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$(function(){
+
+			$('body').fadeIn(2000).fadeOut(2000).fadeIn(2000);	
+
+			$('#title').on('click',function(){
+
+				$('#title').css('color','red');
+				$('#topmenu').css('display','none');
+				$('#content_main').slideToggle(2000);
+				$('#img_other').hide();	
+				
+			});
+			
+			$('#img_doutor').on('mouseover',function(){
+
+
+				$('#title').css('color','#000000');
+				$('#topmenu').css('display','block');
+				$('#img_other').show();	
+			});
+
+		});
+
+	
+
+
+
+
+
+
+
+
+	</script>
 </head>
 <body>
 	<div id="wrapper">
