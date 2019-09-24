@@ -113,7 +113,7 @@ ul li {
 	margin:0 10px;
 }
 
-#header_menu ul li:hover {
+#header_menu ul li a:hover {
 	color:rgba(98, 176, 226,1);
 }
 
