@@ -4,21 +4,48 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, user-scalable=no">
 	<title>Cogent Labs</title>
-	<link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="cogent2.css">
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cogent2.css">
+    <link rel="stylesheet" href="font.css/iconfontup.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+　　<script>
+　　$(window).resize(function(){
+    var height1 = $(window).width();
+    height = height1 * 0.5625;  
+    $("video").css("height", height);
+    });
+    $(function(){
+        $('#li').on ('mouseover',function(){
+        $('#ul').css('display','block')});
+     });
+    
+    </script>
 </head>
 <body>
-	<div id="wrapper"></div>
+	<div id="wrapper">
 	    <div id="nav">
 	    	<div id="left">
 	    		<a href=""><img src="img/tu2.png"></a>
 	    	</div>
-	    	<div id="right">
-	    		<div class="nav">
-	    			<ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">NEWS</a></li>
-                        <li><a href="">PRODUCTS</a>
+	    	<div id="new-menu"class="sp-menu">
+                <div class="sp-menu-open">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="sp-menu-close">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="sp_menu">
+                    <div class="menu-blogo">
+                        <img src="img/tu2.png">
+                    </div>
+                    <div class="sp-li">
+                    <ul>
+                        <li><a href="cogent.html">HOME</a></li>
+                        <li class="news-a"><a href="#wrapper">NEWS</a></li>
+                        <li><a href="cogent.html#products">PRODUCTS</a>
                             <ul>
                                 <li><a href="">Tegaki</a></li>
                                 <li><a href="">Kaidoku</a></li>
@@ -26,11 +53,43 @@
                             </ul>
 
                         </li>
-                        <li><a href="">R&D</a></li>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="">CAREERS</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">CONTACT</a></li>
+                        <li><a href="R&D.html">R&D</a></li>
+                        <li><a href="BLOG.html">BLOG</a></li>
+                        <li><a href="CAREERS.html">CAREERS</a></li>
+                        <li><a href="ABOUT.html">ABOUT</a></li>
+                        <li><a href="CONTACT.html">CONTACT</a></li>
+                    </ul>
+                    </div>
+                </div>
+                    <div id="menu_lang">
+                        <p class="menu_lang">
+                            JP<span>EN</span>
+                        </p>    
+                    </div>
+                    <div class="sp-policy">
+                        <a href="#">Security Policy</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <p class="sp-menu-p">© Copyright 2018 Cogent Labs Inc.</p>
+            </div>
+	    	<div id="right">
+	    		<div class="nav">
+	    			<ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="NEWS.html">NEWS</a></li>
+                        <li id="li"><a href="#products">PRODUCTS</a>
+                            <ul id="ul">
+                                <li><a href="">Tegaki</a></li>
+                                <li><a href="">Kaidoku</a></li>
+                                <li><a href="">Time Series Forecasting</a></li>
+                            </ul>
+
+                        </li>
+                        <li><a href="R&D.html">R&D</a></li>
+                        <li><a href="BLOG.html">BLOG</a></li>
+                        <li><a href="CAREERS.html">CAREERS</a></li>
+                        <li><a href="ABOUT.html">ABOUT</a></li>
+                        <li><a href="CONTACT.html">CONTACT</a></li>
                         </ul>
 	    		</div>
 	    		<div id="language">
@@ -53,19 +112,19 @@
 	    	</div>
 	    	<div id="news" class="cf">
 	    		<div id="NEWS_title">    
-	    		    <h2 class="title">NEWS</h2>
+	    		    <h2 class="title home-title">NEWS</h2>
 	    	    </div>
 	    	    <div id="NEWS_text"class="cf">	    
-	    		    <div id="NEWS_left">
-	    			    <h3>PRESS</h3>
+	    		    <div class="left-box">
+	    			    <h3 class="home-h3">PRESS</h3>
 	    			    <div class="text">
 	    			        <p>コージェントラボ、国内外投資家から14億円のシリーズCラウンドを実施<span>2020.03.31</span></p>
                             <p>世界初 パッケージデザインを自動生成する『AIクリエーターシステム』をアサヒグループホールディングスとCogent Labsが共同開発　商品パッケージデザイン生成試験 2020年4月を目処に開始2020<span>2020.03.09</span></p>
                             <p>世界最高水準の認識精度を誇るAI OCR 「Tegaki」、 茨城県の各種申請・届出業務等へ提供開始　UiPathのRPAプラットフォームと連携へ<span>2020.02.27</span></p>
                         </div>
 	    		    </div>
-	    		    <div id="NEWS_right">
-	    		    	<h3>TOPICS</h3>
+	    		    <div class="right-box">
+	    		    	<h3 class="home-h3">TOPICS</h3>
                         <div class="text">
 	    		    	    <p>日本経済新聞にて、『AIクリエーターシステム』に関する記事を掲載いただきました <span>2020.03.09</span></p>
 	    		    	    <p>新型コロナウイルス(COVID-19) 感染拡大に伴う対応策について<span> 2020.02.21</span></p>
@@ -74,31 +133,31 @@
 	    		    </div>
 	    		</div> 
 	    		<div id="NEWS_foot">   
-	    		    <p>NEWS</p>
+	    		    <a href="NEWS.html">NEWS</a>
 	    		</div>    
 	    	</div>
 	    	<div id="products">
 	    		<div id="PRODUCTS_tittle">
-	    			<h2 class="title">PRODUCTS</h2>
+	    			<h2 class="title home-title">PRODUCTS</h2>
 	    		</div>
 	    		<div id="PRODUCTS_main">
 	    			<div class="Tegaki">
 	    				<img src="img/tu5.jpg">
 	    				<p class="Data">Turning Handwriting into Data</p>
 	    				<p class="content">With handwriting recognition rates of up to 99.22%, Tegaki eliminates the need for manual data entry. Using an intuitive web interface or our powerful API, Tegaki can be integrated into your business process within minutes.</p>
-	    				<div class="PRODUCTS_foot">Tegaki</div>
+	    				<a href="#" id="Tegaki"class="PRODUCTS_foot">Tegaki</a>
 	    			</div>
 	    			<div class="Tegaki Kaidoku">
 	    				<img src="img/tu1.jpg">
 	    				<p class="Data">Natural Language Understanding Engine</p>
 	    				<p class="content">Kaidoku’s advanced natural language understanding capabilities open up new possibilities for automatic processing of documents and working with text.</p>
-	    				<div class="PRODUCTS_foot">Kaidoku</div>
+	    				<a href="#"class="PRODUCTS_foot">Kaidoku</a>
 	    			</div>
 	    			<div class="Tegaki TSF">
 	    				<img src="img/tu6.jpg">
 	    				<p class="Data">Time Series Forecasting</p>
 	    				<p class="content">Our Predictive Analytics Engine TSF, based on advanced deep learning technology, analyses large amounts of historical data of different kinds to make accurate forecasts.</p>
-	    				<div class="PRODUCTS_foot">Time Series Forecasting</div>
+	    				<a href="#"id="Time"class="PRODUCTS_foot">Time Series Forecasting</a>
 	    			</div>
 	    		</div>
 	    	</div>
@@ -108,21 +167,23 @@
 	    			<div class="more_text">
 	    			    <h2 class="more_title">R&D</h2>
 	    			    <p class="more_p">Fundamental and applied research in AI and Deep Learning</p>
-	    			    <a class="more_a"href="#">MORE</a>
+	    			    <a class="more_a"href="R&D.html">MORE</a>
 	    		    </div>
 	    		</div>
 	    		<div id="careers" class="more">
 	    			<div class="more_text">
 	    			    <h2 class="more_title">CAREERS</h2>
 	    			    <p class="more_p">A world-class team of researchers and industry professionals</p>
-	    			    <a  class="more_a"href="#">MORE</a>
+	    			    <a  class="more_a"href="CAREERS.html">MORE</a>
 	    			</div>
 	    		</div>
 	    	</div>
 	    	<div id="go_top">
-	    		<button class="go_top" tepy="button">
-                    <i class="icon-arrow_m_up"></i>
+	    		<a href="#">
+	    		<button class="iconfontup" type="button">
+                    <i class="icon-upward"></i>
 	    		</button>	
+	    	    </a>
 	    	</div>
 	    </div>
 	    <footer>
@@ -154,8 +215,10 @@
                         </p>	
                     </div>	
                     <div id="footer_submenu">
+                    	<div class="sp-footer">
                         <a href="#">Security Policy</a>
                         <a href="#">Privacy Policy</a>
+                        </div>
                         <p>© Copyright 2018 Cogent Labs Inc.</p>
                     </div>	
 		        </div>	

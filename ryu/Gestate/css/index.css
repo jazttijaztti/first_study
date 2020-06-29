@@ -38,7 +38,7 @@ body{
   position:relative;
 }
 #content #top-main #top-main-bg{
-  background-image:url(img/topbg-4.png);
+  background-image:url(../img/topbg-4.png);
   background-position:center;
   background-size:cover;
   height:978px;
@@ -113,7 +113,7 @@ img{
   text-align:center;
 }
 #content #top-sisann #top_sisann_bg{
-  background-image: url(img/mazuhabg.png);
+  background-image: url(../img/mazuhabg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -378,7 +378,7 @@ img{
   letter-spacing:3px;
 }
 #top-soudann .image1{
-  background-image:url(img/otoiawase.jpg);
+  background-image:url(../img/otoiawase.jpg);
   background-position:center;
   background-size:cover;
   width:100%;
@@ -386,7 +386,7 @@ img{
   background-repeat:no-repeat;
 }
 #top-soudann .image2{
-  background-image:url(img/advice.jpg);
+  background-image:url(../img/advice.jpg);
   background-position:center;
   background-size:cover;
   width:100%;
@@ -394,7 +394,7 @@ img{
   background-repeat:no-repeat;
 }
 #top-soudann .image3{
-  background-image:url(img/afterservice.jpg);
+  background-image:url(../img/afterservice.jpg);
   background-position:center;
   background-size:cover;
   width:100%;
@@ -413,7 +413,7 @@ img{
   width:100%;
   text-align:center;
   padding:115px 0 100px;
-  background-image:url(img/otoiawasebg.png);
+  background-image:url(../img/otoiawasebg.png);
   background-position:center;
   background-size:cover;
 }
