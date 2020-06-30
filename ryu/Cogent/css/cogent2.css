@@ -28,7 +28,6 @@ body{
 #left img{
 	max-width:200px;
 	width:100%;
-    
 }
 .NEWS_img{
     padding:10px 20px
@@ -82,23 +81,28 @@ body{
 .AB-a a{
     color:#50e3c2!important;
 }
-.li-li ul{
-    display:block;
+#ul{
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color:#003d56; 
+    padding:10px;
+    margin-top:10px;
+
 }
-.li-li ul li{
+/*.li-li ul li{
 	display:block;
     margin-top:20px;
     background-color: #003d56;
-}
-.nav ul li ul li{
+}*/
+.nav ul li ul li:not(:last-child){
     margin-bottom:10px;
 }
 .nav ul li ul li a{
-    font-size: 13px;
-    color: #ccd8dd;
-    background-color: #003d56;
+    font-size: 10px;
+    color: #fff;
     transition: 0.4s;
-    font-weight: normal;
+    font-weight: 600;
 }
 #language{
 	display:table-cell;
@@ -200,8 +204,16 @@ video{
     text-transform: none;
     line-height:1;
 }
+.iconfont a{
+    color:#fff;
+}
 #main{
     margin-bottom:160px;
+    max-width: 1080px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #news{
@@ -266,6 +278,12 @@ video{
 #news-left{
     box-shadow: #8C8C9E 1px 1px 10px 1px;
     margin-bottom: 20px;
+}
+.hidden{
+    display:none;
+}
+.right-hidden{
+    display:none;
 }
 .news-press h3{
     color: #000;
@@ -371,6 +389,64 @@ h3{
     letter-spacing: 0.5px;
     margin-top: 20px;
 }
+#Recognition{
+    background-color: #fff;
+    color:#000;
+}
+#Recognition2{
+    background-color: #fff;
+    color:#000;
+}
+#Recognition3{
+    background-color: #fff;
+    color:#000;
+}
+.rd-close{
+    display:none;
+}
+#drop-down-inner{
+    padding-top:15px;
+    line-height: 1.8em;
+}
+#drop-down-inner2{
+    padding-top:15px;
+    line-height: 1.8em;
+}
+#drop-down-inner3{
+    padding-top:15px;
+    line-height: 1.8em;
+}
+.drop-down-inner-p{
+    font-size: 14px!important;
+    font-weight: 100!important;
+    margin-left:0!important;
+    margin-bottom: 25px;
+    letter-spacing: normal!important;
+}
+.drop-down-inner-left{
+    float:left;
+    width:22%;
+}
+
+.drop-down-inner-right-p{
+    float: right;
+    width: 76%;
+}
+.drop-down-inner-title{
+    font-weight: 100!important;
+    color:#000;
+    letter-spacing: normal!important;
+    text-align: left!important;
+    font-size: 22px;
+    font-family: "Lato","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN W3",Meiryo,メイリオ,Osaka,"MS PGothic",arial,helvetica,sans-serif;
+}
+.drop-down-inner-right-p p{
+    font-size: 14px!important;
+    font-weight: 100!important;
+    line-height: 1.8em!important;
+    letter-spacing: normal!important;
+    margin-left:0px!important;
+}   
 #products{
     padding-bottom:70px;
     position: relative;
@@ -402,7 +478,7 @@ h3{
     margin-bottom: 10px;
 }
 .drop-down p{
-    font-size: 16px!important;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 3px;
     margin-left:50px;
@@ -949,9 +1025,8 @@ footer img{
     border: 1px solid #fff;
 }
 #footer_submenu{
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
+    display:flex;
+    padding-left:556px;
 }
 #footer_submenu a{
     display: inline-block;
@@ -971,6 +1046,12 @@ footer img{
     max-width: 150px;
     width: 115px;
     }
+    .home-img{
+        padding:10px!important;
+    }
+    .home-img img{
+        width:133px!important;
+    }
     #right{
     display:none!important;
     }
@@ -978,10 +1059,10 @@ footer img{
     top: 30px;
     }
     #text .big_text{
-    font-size: 28px;
+    font-size: 25px;
     }
     #text .small_text{
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 15px;
     }
     .iconfont{
@@ -1095,6 +1176,9 @@ footer img{
     z-index: 0;
     background-color:#336377;
     }
+    #home-menu{
+    margin-top: -78px;    
+    }
     .sp_menu{
     display:block;
     margin-bottom: 55px
@@ -1108,6 +1192,9 @@ footer img{
     position: absolute;  
     z-index: 999;
     }  
+    #home-span span{
+        background-color:#fff!important;
+    }
     .sp-menu-open span:nth-child(1){
     top: 17px;
     right: 15px;
@@ -1206,9 +1293,9 @@ footer img{
     .middle-title{
         padding: 60px 0 13px!important;
     }
-    .news-text{
+    /*.news-text{
         margin: 0 19px!important;
-    }
+    }*/
     .NEWS_left-box{
         display: block;
         width: 100%;
@@ -1244,6 +1331,12 @@ footer img{
     }
     #main{
         margin-bottom: 105px;
+        width:90%;
+        max-width: unset;
+        padding:0;
+    }
+    .news-main{
+        width:100%;
     }
     footer{
         padding:0 55px;
@@ -1285,20 +1378,30 @@ footer img{
     font-weight: normal;
     }
     footer #img{
-        margin: 110px auto 5px;
+        margin: 110px auto 8px;
     }
     footer img{
     max-width: 142px;
     width: 100%;
+    }
+    #footer_submenu{
+        padding:0;
     }
     #footer_submenu p{
         padding-bottom: 40px;
         font-size:10px;
         text-align: center;
     }
+
     .rd-text{
         padding:0 20px;
         margin-bottom: 0px;
+    }
+    #rd-text{
+        padding:0px!important;
+    }
+    #rd-text{
+        margin-bottom: 20px; 
     }
     .rd-text-inner{
     font-size: 13px;
@@ -1309,6 +1412,35 @@ footer img{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    }
+    #drop-down{
+        width:100%;
+        margin-top: 10px;
+    }
+    #drop-down2{
+        width:100%;
+        margin-top: 10px;
+    }
+    #drop-down3{
+        width:100%;
+        margin-top: 10px;
+    }
+    .drop-down-inner-left{
+        float: none;
+        width:64%;
+        margin-left: 18%;
+        margin-right: 18%;
+        padding:30px 0!important;
+    }
+    .drop-down-inner-right-p{
+        float: none;
+        width: 100%;
+    }
+    .drop-down-inner-title{
+        padding: 0px 0 20px!important;
+    }
+    .drop-down-title{
+        font-size: 12px!important;
     }
     .drop-down p{
     font-size: 13px!important;
@@ -1333,7 +1465,26 @@ footer img{
         margin-right: 40px;
     }
     #profile-image1{
-        float:none;    
+        float:none; 
+        margin-left: 25px;
+        margin-right: 40px;
+    }
+    #profile-image2{
+       margin-left: 40px;
+        margin-right: 25px; 
+    }
+    #profile-image3{
+       margin-left: 25px;
+        margin-right: 40px; 
+    }
+    #profile-image4{
+       margin-left: 40px;
+        margin-right: 25px; 
+    }
+    
+    .rd-profile{
+        margin-right:0px!important;
+        margin-left:0!important;
     }
     .profile-text{
         clear:both;
@@ -1447,6 +1598,9 @@ footer img{
     }
     #about-published{
         padding-top: 80px!important;
+    }
+    iframe{
+        height:400px;
     }
     .map-p{
         line-height: 1.5em;

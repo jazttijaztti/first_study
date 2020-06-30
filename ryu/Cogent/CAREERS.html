@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="css/cogent2.css">
     <link rel="stylesheet" href="font.css/iconfontup.css">
     <link rel="stylesheet" href="font.css/iconfont.css">
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#li').on ('mouseover',function(){
+            $('#ul').show()
+            });
+            $('#li a').on ('mouseout',function(){
+            $('#ul').hide();
+            });
+        
+        $('.sp-menu-open').on('click',function(){
+            $('.sp-menu').css('display','block');$('.sp-menu-open').css('display','none');$('footer').css('visibility','hidden');
+            });
+            $('.sp-menu-close').on('click',function(){
+            $('.sp-menu').css('display','none');$('.sp-menu-open').css('display','block');$('footer').css('visibility','visible');
+            });
+     });
+    </script>
 </head>
 <body>
 	<div id="wrapper">
@@ -15,12 +33,13 @@
 	    	<div id="left NEWS_left" class="NEWS_img">
 	    		<a href=""><img src="img/tu3.png"></a>
 	    	</div>
-            <div id="new-menu"class="sp-menu">
-                <div class="sp-menu-open">
+            <div class="sp-menu-open">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
+            <div id="new-menu"class="sp-menu">
+                
                 <div class="sp-menu-close">
                     <span></span>
                     <span></span>
@@ -65,8 +84,8 @@
 	    			<ul>
                         <li><a href="cogent.html">HOME</a></li>
                         <li><a href="NEWS.html">NEWS</a></li>
-                        <li><a href="cogent.html#products">PRODUCTS</a>
-                            <ul>
+                        <li id="li"><a href="cogent.html#products">PRODUCTS</a>
+                            <ul id="ul">
                                 <li><a href="">Tegaki</a></li>
                                 <li><a href="">Kaidoku</a></li>
                                 <li><a href="">Time Series Forecasting</a></li>
@@ -153,18 +172,18 @@
 	    	<div id="footer_inner">
                 <div id="footer_inner_menu">
 	    		    <ul>
-                    <li><a href="">NEWS</a></li>
-                    <li><a href="">PRODUCTS</a>
+                    <li><a href="NEWS.html">NEWS</a></li>
+                    <li><a href="cogent.html#products">PRODUCTS</a>
                         <ul>
                             <li><a href="">Tegaki</a></li>
                             <li><a href="">Kaidoku</a></li>
                             <li><a href="">Time Series Forecasting</a></li>
                         </ul>
                     </li>
-                    <li><a href="">R&D</a></li>
+                    <li><a href="R&D.html">R&D</a></li>
                     <li><a href="">BLOG</a></li>
-                    <li><a href="">CAREERS</a></li>
-                    <li><a href="">ABOUT</a></li>
+                    <li><a href="CAREERS.html">CAREERS</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
                     <li><a href="CONTACT.html">CONTACT</a></li>
                     </ul>
                 </div>    

@@ -16,7 +16,20 @@
     });
     $(function(){
         $('#li').on ('mouseover',function(){
-        $('#ul').css('display','block')});
+            $('#ul').show()
+            });
+            $('#li a').on ('mouseout',function(){
+            $('#ul').hide();
+            });
+        $('.sp-menu-open').on('click',function(){
+            $('.sp-menu').css('display','block');
+            $('.sp-menu-open').css('display','none');
+            $('footer').css('visibility','hidden');
+            });
+            $('.home-img').css('display','block');
+            $('.sp-menu-close').on('click',function(){
+            $('.sp-menu').css('display','none');$('.sp-menu-open').css('display','block');$('footer').css('visibility','visible');
+            });
      });
     
     </script>
@@ -24,15 +37,16 @@
 <body>
 	<div id="wrapper">
 	    <div id="nav">
-	    	<div id="left">
+	    	<div id="left" class="home-img">
 	    		<a href=""><img src="img/tu2.png"></a>
 	    	</div>
-	    	<div id="new-menu"class="sp-menu">
-                <div class="sp-menu-open">
+	    	<div class="sp-menu-open" id="home-span">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+            </div>
+            <div id="home-menu"class="sp-menu">
+                
                 <div class="sp-menu-close">
                     <span></span>
                     <span></span>
@@ -107,7 +121,7 @@
 	    			<p class="small_text">With Artificial Intelligence</p>
 	    		</div>
 	    		<div class="iconfont">
-	    			&#xe69b;
+	    			<a href="#news">&#xe69b;</a>
 	    		</div>
 	    	</div>
 	    	<div id="news" class="cf">
@@ -190,19 +204,19 @@
 	    	<div id="footer_inner">
                 <div id="footer_inner_menu">
 	    		    <ul>
-                    <li><a href="">NEWS</a></li>
-                    <li><a href="">PRODUCTS</a>
+                    <li><a href="NEWS.html">NEWS</a></li>
+                    <li><a href="#products">PRODUCTS</a>
                         <ul>
                             <li><a href="">Tegaki</a></li>
                             <li><a href="">Kaidoku</a></li>
                             <li><a href="">Time Series Forecasting</a></li>
                         </ul>
                     </li>
-                    <li><a href="">R&D</a></li>
+                    <li><a href="R&D.html">R&D</a></li>
                     <li><a href="">BLOG</a></li>
-                    <li><a href="">CAREERS</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="CAREERS.html">CAREERS</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
                     </ul>
                 </div>    
 		        <div id="img">

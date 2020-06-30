@@ -11,11 +11,32 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(function(){
+            $('#li').on ('mouseover',function(){
+            $('#ul').show()
+            });
+            $('#li a').on ('mouseout',function(){
+            $('#ul').hide();
+            });
             $('.sp-menu-open').on('click',function(){
-            $('.sp-menu').css('display','block');$('.sp-menu-open').css('display','none');
+                $('.sp-menu').css('display','block');
+                $('.sp-menu-open').css('display','none');
+                $('footer').css('visibility','hidden');
+                $('#go_top').css('position','absolute');
             });
             $('.sp-menu-close').on('click',function(){
-            $('.sp-menu').css('display','none');$('.sp-menu-open').css('display','block');
+                $('.sp-menu').css('display','none');
+                $('.sp-menu-open').css('display','block');
+                $('footer').css('visibility','visible');
+            });
+            $('#left-more').on('click',function(){
+                $('.hidden').css('display','block');
+                $('#left-more').css('visibility','hidden');
+                $('#left-more').css('padding','0');
+                $('.NEWS_more').css('margin-bottom','15px');
+            });
+            $('#right-more').on('click',function(){
+                $('.right-hidden').css('display','block');
+                $('#right-more').css('visibility','hidden');
             });
         });
     </script>
@@ -77,8 +98,8 @@
 	    			<ul>
                         <li><a href="cogent.html">HOME</a></li>
                         <li class="news-a"><a href="">NEWS</a></li>
-                        <li><a href="cogent.html#products">PRODUCTS</a>
-                            <ul>
+                        <li id="li"><a href="cogent.html#products">PRODUCTS</a>
+                            <ul id="ul">
                                 <li><a href="">Tegaki</a></li>
                                 <li><a href="">Kaidoku</a></li>
                                 <li><a href="">Time Series Forecasting</a></li>
@@ -96,7 +117,6 @@
 	    		    <p>JP<span class="news-span">EN</span></p>
 	    	    </div>
 	    	</div>
-            
 	    </div>
         <div id="list_item">
             <div id="list_inner">
@@ -111,130 +131,218 @@
                     <h2 class="title">NEWS</h2>
                 </div>
                 <div id="NEWS_text"class="cf news-text">  
-                    <div class="left-box NEWS_left-box">    
+                    <div class="left-box NEWS_left-box cf">    
                         <div id="news-left" class="news-press">
-                        <h3>PRESS</h3>
-                        <div class="text news-text-inner">
+                            <h3>PRESS</h3>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
-                        <div class="text news-text-inner">
+                            </div>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
-                        <div class="text news-text-inner">
+                            </div>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
+                            </div>
                         <div class="sp-close">
-                        <div class="text news-text-inner">
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
-                        <div class="text news-text-inner">
+                            </div>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
-                        <div class="text news-text-inner">
+                            </div>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
-                        <div class="text news-text-inner">
+                            </div>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
-                        <div class="text news-text-inner">
+                            </div>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
-                        <div class="text news-text-inner">
+                            </div>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
-                        </div>
-                        <div class="text news-text-inner">
+                            </div>
+                            <div class="text news-text-inner">
                             (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
                             <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
                         </div>
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                           <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                        <div class="sp-close">
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
+                            <div class="text news-text-inner hidden">
+                            (JP Only) Cogent Labs AI OCR “Tegaki” is Confirmed to Fully Support Automatic Digitization of Applications for “Special Supplementary Income Payment” as part of Emergency Economic Measures to cope with COVID-19. 〜Starting from April 30 at Local Governments〜
+                            <p class="news-time">2020.4.30<a href="#">-PRESS</a></p>
+                            </div>
                         </div>
-                        </div>
-                        <div class="NEWS_more">MORE</div>
+                    </div>
+                                            
+                    <div class="NEWS_more" id="left-more">MORE</div>
                     </div>    
                     <div class="right-box NEWS_right-box cf">
                         <div id="news-right" class="news-press">
-                        <h3>TOPICS</h3>
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div>    
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
+                            <h3>TOPICS</h3>
+                            <div class="text news-text-inner">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                                 <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                            </div>    
+                            <div class="text news-text-inner">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                                 <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                            </div> 
+                            <div class="text news-text-inner">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                            </div> 
+                            <div class="sp-close">
+                            <div class="text news-text-inner">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner">
+                              Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner">
+                              Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                              <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner">
+                              Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner">
+                              Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                              <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                        </div>
+                            <div class="text news-text-inner right-hidden">
+                            Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                            <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                            </div>    
+                            <div class="text news-text-inner right-hidden">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                                 <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                            </div> 
+                           <div class="text news-text-inner right-hidden">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                            </div> 
                         <div class="sp-close">
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
-                        <div class="text news-text-inner">
-                           Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
-                             <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
-                        </div> 
+                            <div class="text news-text-inner right-hidden">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner right-hidden">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner right-hidden">
+                              Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner right-hidden">
+                              Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                              <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner right-hidden">
+                               Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner right-hidden">
+                              Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                               <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
+                           <div class="text news-text-inner right-hidden">
+                              Cogent Labs’ “AI Creator System” was featured on Nikkei News Paper.
+                              <p class="news-time">2020.03.09<a href="#"> - TOPICS</a></p>
+                           </div> 
                         </div>
                         </div>
-                        <div class="NEWS_more">MORE</div>
-                    </div>    
+                        <div class="NEWS_more" id="right-more">MORE</div>
+                    </div>   
+
                 </div> 
             </div>
         </div>
-	        <div id="go_top">
-                <a href="#">
-                <button class="iconfontup" type="button">
-                    <i class="icon-upward"></i>
-                </button>   
-                </a>
-            </div>
-	    <footer>
+    </div>
+
+	    <div id="go_top">
+            <a href="#">
+            <button class="iconfontup" type="button">
+                <i class="icon-upward"></i>
+            </button>   
+            </a>
+        </div>
+        <footer>
 	    	<div id="footer_inner">
                 <div id="footer_inner_menu">
                     <div class="footer-li">
 	    		    <ul>
-                    <li><a href="">NEWS</a></li>
-                    <li><a href="">PRODUCTS</a>
+                    <li><a href="NEWS.html">NEWS</a></li>
+                    <li><a href="cogent.html#products">PRODUCTS</a>
                         <ul>
                             <li><a href="">Tegaki</a></li>
                             <li><a href="">Kaidoku</a></li>
                             <li><a href="">Time Series Forecasting</a></li>
                         </ul>
                     </li>
-                    <li><a href="">R&D</a></li>
+                    <li><a href="R&D.html">R&D</a></li>
                     <li><a href="">BLOG</a></li>
-                    <li><a href="">CAREERS</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="CAREERS.html">CAREERS</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
                     </ul>
                     </div>
                 </div>    
@@ -257,10 +365,6 @@
 		        </div>	
             </div>
 	    </footer>
-
-
-
-
-	</div>
+    </div>	
 </body>
 </html>
